@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.guest')
 
-@section('content')
+@section('guest-content')
 
 
     <div id="page-container" class="main-content-boxed">
