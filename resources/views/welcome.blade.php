@@ -1,3 +1,16 @@
+@extends('layouts.guest')
+
+@section('guest-content')
+    @include('partials.guest.header')
+    @include('partials.guest.content')
+@endsection
+
+
+
+
+
+
+{{--
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -88,3 +101,4 @@
 </div>
 </body>
 </html>
+--}}
