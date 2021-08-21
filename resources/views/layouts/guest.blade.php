@@ -20,18 +20,9 @@
     <!-- Fonts and Codebase framework -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,600,700&display=swap">
     <link rel="stylesheet" id="css-main" href="{{ asset('assets/css/codebase.min.css') }}">
-
-      <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+  
 <div id="page-container" class="page-header-fixed page-header-glass main-content-boxed">
         @yield('guest-content')
 </div>
@@ -39,11 +30,9 @@
 <script src="{{asset('assets/js/codebase.core.min.js')}}"></script>
 <script src="{{asset('assets/js/codebase.app.min.js')}}"></script>
 
-
 <!-- Page JS Plugins -->
 <script src="{{asset('assets/js/plugins/jquery-validation/jquery.validate.min.js')}}"></script>
 <script src="{{asset('assets/js/pages/op_auth_signup.min.js')}}"></script>
-
 
 </body>
 </html>
