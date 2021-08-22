@@ -2,7 +2,10 @@
 
 @section('guest-content')
     @include('partials.guest.header')
-    @include('partials.guest.content')
+    <main id="main-container">
+        @include('partials.guest.about')
+        @include('partials.guest.content')
+    </main>
 @endsection
 
 
