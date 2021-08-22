@@ -1,72 +1,4 @@
-{{--<div class="bg-video" data-vide-bg="{{asset('assets/media/videos/city_night')}}" data-vide-options="posterType: jpg">
-    <div class="hero bg-black-op">
-        <div class="hero-inner">
-            <div class="content content-full text-center">
-                <h1 class="display-4 font-w700 text-white mb-10">Codebase</h1>
-                <h2 class="font-w400 text-white-op mb-50">Amazing features to Get Started</h2>
-                <a class="btn btn-hero btn-noborder btn-rounded btn-success" href="be_layout_hero_video.html">
-                    <i class="si si-user mr-10"></i> Apply to Join
-                </a>
-            </div>
-        </div>
-    </div>
-</div>--}}
-<div class="bg-image" style="background-image: url('{{asset('assets/media/photos/photo2@2x.jpg')}}');">
-    <div class="hero bg-primary-dark-op">
-        <div class="hero-inner">
-            <div class="content content-full text-center">
-                <h1 class="display-4 font-w700 text-white mb-10 invisible" data-toggle="appear" data-class="animated fadeInDown">Here begins a love ..</h1>
-                <h2 class="font-w400 text-white-op mb-50 invisible" data-toggle="appear" data-class="animated fadeInUp" data-timeout="250">Now, you are ready to get married and are looking for him.
 
-                    Join myJodoh .. maybe he is here ..</h2>
-                <a class="btn btn-hero btn-noborder btn-rounded btn-primary invisible" data-toggle="appear" data-class="animated bounceIn" data-timeout="750" href="be_layout_hero_image.html">
-                    <i class="si si-user mr-10"></i> Get Started
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="col-md-12 py-30">
-   {{-- <h3 class="h4 font-w700 text-uppercase text-center pb-10 border-b border-3x mb-0">Quick <span class="text-primary">Statistics</span>.</h3>--}}
-
-    <!-- CountTo ([data-toggle="countTo"] is initialized in Helpers.coreAppearCountTo()) -->
-    <!-- For more info and examples you can check out https://github.com/mhuggins/jquery-countTo -->
-    <div class="row text-center">
-        <div class="col-sm-6 col-md-3 py-30">
-            <div class="mb-20">
-                <i class="si si-briefcase fa-3x text-primary"></i>
-            </div>
-            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="9600" data-after="+">0</div>
-            <div class="font-w600 text-muted text-uppercase">Active users
-
-
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3 py-30">
-            <div class="mb-20">
-                <i class="si si-users fa-3x text-primary"></i>
-            </div>
-            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="760" data-after="+">0</div>
-            <div class="font-w600 text-muted text-uppercase">Singles</div>
-        </div>
-        <div class="col-sm-6 col-md-3 py-30">
-            <div class="mb-20">
-                <i class="si si-clock fa-3x text-primary"></i>
-            </div>
-            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="88600" data-after="+">0</div>
-            <div class="font-w600 text-muted text-uppercase">widow</div>
-        </div>
-        <div class="col-sm-6 col-md-3 py-30">
-            <div class="mb-20">
-                <i class="si si-badge fa-3x text-primary"></i>
-            </div>
-            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="60" data-after="+">0</div>
-            <div class="font-w600 text-muted text-uppercase">Doubt</div>
-        </div>
-    </div>
-</div>
 
     <!-- Key Features -->
     <div class="bg-body-light overflow-hidden">
@@ -283,102 +215,7 @@
     </div>
     <!-- END Unlimited Dashboards -->
 
-    <!-- Page Packs -->
-    <div class="bg-body-light">
-        <div class="content content-full">
-            <div class="pt-100 pb-50">
-                <div class="position-relative">
-                    <span class="text-back">02</span>
-                    <h2 class="font-w700 text-center mb-10">
-                        Page <span class="text-primary">Packs</span>
-                    </h2>
-                    <h3 class="h4 font-w400 text-muted text-center mb-50">
-                        Just a glimpse of the ready made pages included to rocket start your project.
-                    </h3>
-                </div>
-                <div class="row nice-copy my-10">
-                    <div class="col-md-4 py-20">
-                        <a class="options-container push" href="be_pages_crypto_dashboard.html">
-                            <img class="img-fluid options-item" src="assets/media/various/preview-page-pack-crypto.png" alt="Page Pack Crypto">
-                            <div class="options-overlay bg-white-op-90">
-                                <div class="options-overlay-content h5 font-w700 text-uppercase">
-                                    <i class="fa fa-link fa-4x"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <h4 class="font-size-xl font-w700 text-uppercase mb-10">Crypto</h4>
-                        <p>Cryptocurrency exchange pages for your blockchain project.</p>
-                    </div>
-                    <div class="col-md-4 py-20">
-                        <a class="options-container push" href="be_pages_ecom_dashboard.html">
-                            <img class="img-fluid options-item" src="assets/media/various/preview-page-pack-ecommerce.png" alt="Page Pack e-Commerce">
-                            <div class="options-overlay bg-white-op-90">
-                                <div class="options-overlay-content h5 font-w700 text-uppercase">
-                                    <i class="fa fa-link fa-4x"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <h4 class="font-size-xl font-w700 text-uppercase mb-10">e-Commerce</h4>
-                        <p>Products and sales management pages for your e-commerce dashboards.</p>
-                    </div>
-                    <div class="col-md-4 py-20">
-                        <a class="options-container push" href="be_pages_elearning_courses.html">
-                            <img class="img-fluid options-item" src="assets/media/various/preview-page-pack-elearning.png" alt="Page Pack e-Learning">
-                            <div class="options-overlay bg-white-op-90">
-                                <div class="options-overlay-content h5 font-w700 text-uppercase">
-                                    <i class="fa fa-link fa-4x"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <h4 class="font-size-xl font-w700 text-uppercase mb-10">e-Learning</h4>
-                        <p>Start building your e-learning platform easily with the included pages.</p>
-                    </div>
-                    <div class="col-md-4 py-20">
-                        <a class="options-container push" href="be_pages_forum_categories.html">
-                            <img class="img-fluid options-item" src="assets/media/various/preview-page-pack-forum.png" alt="Page Pack Forum">
-                            <div class="options-overlay bg-white-op-90">
-                                <div class="options-overlay-content h5 font-w700 text-uppercase">
-                                    <i class="fa fa-link fa-4x"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <h4 class="font-size-xl font-w700 text-uppercase mb-10">Forum</h4>
-                        <p>Perfect if you are building a community or support section in your app.</p>
-                    </div>
-                    <div class="col-md-4 py-20">
-                        <a class="options-container push" href="be_pages_auth_all.html">
-                            <img class="img-fluid options-item" src="assets/media/various/preview-page-pack-auth.png" alt="Page Pack Authentication">
-                            <div class="options-overlay bg-white-op-90">
-                                <div class="options-overlay-content h5 font-w700 text-uppercase">
-                                    <i class="fa fa-link fa-4x"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <h4 class="font-size-xl font-w700 text-uppercase mb-10">Authentication</h4>
-                        <p>Tons of options to meet every possible need when designing your authentication sections.</p>
-                    </div>
-                    <div class="col-md-4 py-20">
-                        <a class="options-container push" href="be_pages_error_all.html">
-                            <img class="img-fluid options-item" src="assets/media/various/preview-page-pack-error.png" alt="Page Pack Error">
-                            <div class="options-overlay bg-white-op-90">
-                                <div class="options-overlay-content h5 font-w700 text-uppercase">
-                                    <i class="fa fa-link fa-4x"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <h4 class="font-size-xl font-w700 text-uppercase mb-10">Error</h4>
-                        <p>Clean error pages to incorporate in case of a server or an app failure.</p>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <a class="btn btn-hero btn-noborder btn-alt-secondary min-width-175" href="be_pages_generic_todo.html">
-                        <i class="si si-rocket mr-5"></i> Explore More Pages
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END Page Packs -->
+
 
     <!-- Feature: Powerful Layout -->
     <div class="bg-white">
@@ -535,48 +372,7 @@
     </div>
     <!-- END Feature: Bootstrap 4 -->
 
-    <!-- Feature: Smart Tools -->
-    <div class="bg-white">
-        <div class="content content-full">
-            <div class="pt-100 pb-50">
-                <div class="position-relative">
-                    <span class="text-back">05</span>
-                    <h2 class="font-w700 text-center mb-10">
-                        Smart <span class="text-primary">Tools</span>
-                    </h2>
-                    <h3 class="h4 font-w400 text-muted text-center mb-50">
-                        Make your life easier and work more efficiently.
-                    </h3>
-                </div>
-                <div class="row nice-copy my-10">
-                    <div class="col-md-4 py-20">
-                        <h4 class="font-size-xl font-w700 text-uppercase mb-10">
-                            <i class="fa fa-cogs text-elegance mr-5"></i> Preprocessor
-                        </h4>
-                        <p class="mb-0">Codebase CSS framework was built with Sass following a completely modular approach. It is easy to understand, customize and extend to fulfill your needs or project’s requirements.</p>
-                    </div>
-                    <div class="col-md-4 py-20">
-                        <h4 class="font-size-xl font-w700 text-uppercase mb-10">
-                            <i class="fa fa-terminal text-info mr-5"></i> Live Tasks
-                        </h4>
-                        <p class="mb-0">Smart tasks will serve your project, auto refresh on file changes, live compile your ES6 to ES5 and Sass to CSS while you work (also auto adding any required browser prefixes).</p>
-                    </div>
-                    <div class="col-md-4 py-20">
-                        <h4 class="font-size-xl font-w700 text-uppercase mb-10">
-                            <i class="fa fa-dot-circle-o text-danger mr-5"></i> Build
-                        </h4>
-                        <p class="mb-0">Time-saving task that will build a custom, minimized and production ready Codebase framework for you. Create your own variation based on your project.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row no-gutters justify-content-center pull-b text-center overflow-hidden">
-                <div class="col-sm-6 invisible" data-toggle="appear" data-class="animated zoomIn">
-                    <img class="img-fluid" src="assets/media/various/landing-promo-smart-tools.png" srcset="assets/media/various/landing-promo-smart-tools@2x.png 2x" alt="Smart Tools Promo">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END Feature: Smart Tools -->
+
 
     <!-- Feature: Developer Minded -->
     <div class="bg-body-light">
@@ -810,19 +606,7 @@
     <!-- END Features -->
 
     <!-- Call to Action -->
-    <div class="bg-white">
-        <div class="content content-full text-center overflow-hidden">
-            <div class="py-100">
-                <h2 class="font-w700 mb-10">
-                    Crafted with <i class="fa fa-heart text-danger"></i> by <a class="link-effect" href="https://1.envato.market/ydb">pixelcave</a>
-                </h2>
-                <h3 class="h4 font-w400 text-muted mb-50">Passionate web design and development with over 12.000 customers worldwide.</h3>
-                <a class="btn btn-hero btn-lg btn-noborder btn-alt-success mb-10 invisible" data-toggle="appear" data-class="animated zoomIn" href="https://1.envato.market/95j">
-                    <i class="fa fa-shopping-bag mr-10"></i> Purchase Codebase
-                </a>
-            </div>
-        </div>
-    </div>
+
     <!-- END Call to Action -->
 
 
