@@ -1,5 +1,5 @@
 <!-- Hero -->
-<div class="bg-white bg-pattern" style="background-image: url('{{ asset('assets/media/various/bg-pattern-inverse.png') }}');">
+<div class="bg-white bg-pattern" style="background-image: url('{{ asset('assets/img/index02.jpg') }}');">
     <div class="d-flex align-items-center">
         <div class="content content-full">
             <div class="row no-gutters w-100 py-100 overflow-hidden">
@@ -9,7 +9,7 @@
                         <h1 class="font-w600 font-size-h2 mb-20">
                             MEET HIM HERE
                         </h1>
-                        <p class="font-size-lg nice-copy text-muted mb-30">
+                        <p class="font-size-lg nice-copy text-black mb-30">
                             And among the signs of His power is that He created for you wives of your own kind, that you may incline and feel at ease towards them, and He made between you love and affection.
                             Surah An-Rum, verse 21
                         </p>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="col-md-7 py-30 d-none d-md-flex align-items-md-center justify-content-md-end invisible" data-toggle="appear" data-class="animated fadeInRight">
-                    <img class="img-fluid" src="assets/media/various/landing-promo-hero.png" srcset="assets/media/various/landing-promo-hero@2x.png 2x" alt="Hero Promo">
+                    <img class="img-fluid" src="{{ asset('assets/img/index01.jpg') }}" srcset="{{asset('assets/img/index01.jpg')}}" alt="Hero Promo">
                 </div>
             </div>
         </div>
