@@ -4,7 +4,12 @@
     @include('partials.guest.header')
     <main id="main-container">
         @include('partials.guest.about')
-        @include('partials.guest.content')
+        @include('partials.guest.here_bigin_a_love')
+        @include('partials.guest.users_count')
+        @include('partials.guest.user_activity')
+        @include('partials.guest.footer')
+
+
     </main>
 @endsection
 
