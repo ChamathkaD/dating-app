@@ -1,32 +1,72 @@
-<main id="main-container">
-
-    <!-- Hero -->
-    <div class="bg-white bg-pattern" style="background-image: url('assets/media/various/bg-pattern-inverse.png');">
-        <div class="d-flex align-items-center">
-            <div class="content content-full">
-                <div class="row no-gutters w-100 py-100 overflow-hidden">
-                    <div class="col-md-5 py-30 d-flex align-items-center invisible" data-toggle="appear">
-                        <div class="text-center text-md-left">
-                            <span class="d-inline-block bg-body-light rounded-pill py-5 px-15 mb-15 font-w600">Version 3.3</span>
-                            <h1 class="font-w600 font-size-h2 mb-20">
-                                Next generation, multipurpose UI framework.
-                            </h1>
-                            <p class="font-size-lg nice-copy text-muted mb-30">
-                                Codebase is a super flexible solution built with Bootstrap 4, ECMAScript 6 and Sass. Use it to save time and create all kinds of web applications with friendly and fast user interface.
-                            </p>
-                            <a class="btn btn-hero btn-alt-secondary" href="be_pages_dashboard.html">
-                                <i class="fa fa-arrow-right text-muted mr-5"></i> Enter Dashboard
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-7 py-30 d-none d-md-flex align-items-md-center justify-content-md-end invisible" data-toggle="appear" data-class="animated fadeInRight">
-                        <img class="img-fluid" src="assets/media/various/landing-promo-hero.png" srcset="assets/media/various/landing-promo-hero@2x.png 2x" alt="Hero Promo">
-                    </div>
-                </div>
+{{--<div class="bg-video" data-vide-bg="{{asset('assets/media/videos/city_night')}}" data-vide-options="posterType: jpg">
+    <div class="hero bg-black-op">
+        <div class="hero-inner">
+            <div class="content content-full text-center">
+                <h1 class="display-4 font-w700 text-white mb-10">Codebase</h1>
+                <h2 class="font-w400 text-white-op mb-50">Amazing features to Get Started</h2>
+                <a class="btn btn-hero btn-noborder btn-rounded btn-success" href="be_layout_hero_video.html">
+                    <i class="si si-user mr-10"></i> Apply to Join
+                </a>
             </div>
         </div>
     </div>
-    <!-- END Hero -->
+</div>--}}
+<div class="bg-image" style="background-image: url('{{asset('assets/media/photos/photo2@2x.jpg')}}');">
+    <div class="hero bg-primary-dark-op">
+        <div class="hero-inner">
+            <div class="content content-full text-center">
+                <h1 class="display-4 font-w700 text-white mb-10 invisible" data-toggle="appear" data-class="animated fadeInDown">Here begins a love ..</h1>
+                <h2 class="font-w400 text-white-op mb-50 invisible" data-toggle="appear" data-class="animated fadeInUp" data-timeout="250">Now, you are ready to get married and are looking for him.
+
+                    Join myJodoh .. maybe he is here ..</h2>
+                <a class="btn btn-hero btn-noborder btn-rounded btn-primary invisible" data-toggle="appear" data-class="animated bounceIn" data-timeout="750" href="be_layout_hero_image.html">
+                    <i class="si si-user mr-10"></i> Get Started
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-12 py-30">
+   {{-- <h3 class="h4 font-w700 text-uppercase text-center pb-10 border-b border-3x mb-0">Quick <span class="text-primary">Statistics</span>.</h3>--}}
+
+    <!-- CountTo ([data-toggle="countTo"] is initialized in Helpers.coreAppearCountTo()) -->
+    <!-- For more info and examples you can check out https://github.com/mhuggins/jquery-countTo -->
+    <div class="row text-center">
+        <div class="col-sm-6 col-md-3 py-30">
+            <div class="mb-20">
+                <i class="si si-briefcase fa-3x text-primary"></i>
+            </div>
+            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="9600" data-after="+">0</div>
+            <div class="font-w600 text-muted text-uppercase">Active users
+
+
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3 py-30">
+            <div class="mb-20">
+                <i class="si si-users fa-3x text-primary"></i>
+            </div>
+            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="760" data-after="+">0</div>
+            <div class="font-w600 text-muted text-uppercase">Singles</div>
+        </div>
+        <div class="col-sm-6 col-md-3 py-30">
+            <div class="mb-20">
+                <i class="si si-clock fa-3x text-primary"></i>
+            </div>
+            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="88600" data-after="+">0</div>
+            <div class="font-w600 text-muted text-uppercase">widow</div>
+        </div>
+        <div class="col-sm-6 col-md-3 py-30">
+            <div class="mb-20">
+                <i class="si si-badge fa-3x text-primary"></i>
+            </div>
+            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="60" data-after="+">0</div>
+            <div class="font-w600 text-muted text-uppercase">Doubt</div>
+        </div>
+    </div>
+</div>
 
     <!-- Key Features -->
     <div class="bg-body-light overflow-hidden">
@@ -785,4 +825,4 @@
     </div>
     <!-- END Call to Action -->
 
-</main>
+

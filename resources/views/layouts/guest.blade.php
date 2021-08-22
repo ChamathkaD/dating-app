@@ -6,7 +6,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Codebase - Bootstrap 4 Admin Template &amp; UI Framework</title>
+    <title>{{ config('app.name', 'Laravel') }} @yield('title')</title>
 
     <!-- Icons -->
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
@@ -22,8 +22,9 @@
     <link rel="stylesheet" id="css-main" href="{{ asset('assets/css/codebase.min.css') }}">
 </head>
 <body>
-  
+
 <div id="page-container" class="page-header-fixed page-header-glass main-content-boxed">
+
         @yield('guest-content')
 </div>
 
@@ -33,6 +34,7 @@
 <!-- Page JS Plugins -->
 <script src="{{asset('assets/js/plugins/jquery-validation/jquery.validate.min.js')}}"></script>
 <script src="{{asset('assets/js/pages/op_auth_signup.min.js')}}"></script>
+<script src="{{asset('assets/js/plugins/jquery-vide/jquery.vide.min.js')}}"></script>
 
 </body>
 </html>
