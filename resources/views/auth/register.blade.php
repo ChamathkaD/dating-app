@@ -1,5 +1,5 @@
 @extends('layouts.guest')
-
+@section('title', 'Register')
 @section('guest-content')
 
     <div id="page-container" class="main-content-boxed">

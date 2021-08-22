@@ -1,13 +1,10 @@
 @extends('layouts.guest')
-
+@section('title', 'Login')
 @section('guest-content')
 
-
     <div id="page-container" class="main-content-boxed">
-
         <!-- Main Container -->
         <main id="main-container">
-
             <!-- Page Content -->
             <div class="bg-image" style="background-image: url('{{asset('assets/media/photos/photo34@2x.jpg')}}');">
                 <div class="row mx-0 bg-black-op">
