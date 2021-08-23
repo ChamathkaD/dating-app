@@ -1,5 +1,5 @@
 <!-- Hero -->
-<div class="bg-white bg-pattern" style="background-image: url('{{ asset('assets/img/index02.jpg') }}');">
+<div class="bg-white bg-pattern" style="background-image: url('{{ asset('assets/media/various/bg-pattern-inverse.png') }}');">
     <div class="d-flex align-items-center">
         <div class="content content-full">
             <div class="row no-gutters w-100 py-100 overflow-hidden">
