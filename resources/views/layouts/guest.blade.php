@@ -24,8 +24,11 @@
 <body>
 
 <div id="page-container" class="page-header-fixed page-header-glass main-content-boxed">
-
-        @yield('guest-content')
+    <div id="page-container" class="main-content-boxed">
+        <main id="main-container">
+            @yield('guest-content')
+        </main>
+    </div>
 </div>
 
 <script src="{{asset('assets/js/codebase.core.min.js')}}"></script>
