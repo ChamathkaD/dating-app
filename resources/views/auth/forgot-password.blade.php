@@ -32,25 +32,46 @@
                     <!-- Reminder Form -->
                     <!-- jQuery Validation functionality is initialized with .js-validation-reminder class in js/pages/op_auth_reminder.min.js which was auto compiled from _es6/pages/op_auth_reminder.js -->
                     <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                    <form class="js-validation-reminder px-30" action="{{ route('password.email') }}" method="post">
-                        @csrf                                <div class="form-group row">
+                    <form 
+                        class="js-validation-reminder px-30" 
+                        action="{{ route('password.email') }}" 
+                        method="post"
+                        >
+                        @csrf   
+                        
+                        <div class="form-group row">
+
                             <div class="col-12">
                                 <div class="form-material floating">
-                                    <input type="text" class="form-control" id="reminder-credential" name="reminder-credential">
-                                    <label for="reminder-credential">Username or Email</label>
+                                    <input 
+                                        type="email" 
+                                        class="form-control" 
+                                        id="email" 
+                                        name="email"
+                                        value="{{ old('email') }}"
+                                        required
+                                        autofocus
+                                        >
+                                    <label for="email">Username or Email</label>
                                 </div>
                             </div>
+
                         </div>
+
                         <div class="form-group">
+
                             <button type="submit" class="btn btn-sm btn-hero btn-alt-primary">
                                 <i class="fa fa-asterisk mr-10"></i> Password Reminder
                             </button>
+
                             <div class="mt-30">
-                                <a class="link-effect text-muted mr-10 mb-5 d-inline-block" href="op_auth_signin2.html">
+                                <a class="link-effect text-muted mr-10 mb-5 d-inline-block" href="{{ route('login') }}">
                                     <i class="fa fa-user text-muted mr-5"></i> Sign In
                                 </a>
                             </div>
+
                         </div>
+
                     </form>
                     <!-- END Reminder Form -->
                 </div>
