@@ -32,27 +32,32 @@
                     <!-- Reminder Form -->
                     <!-- jQuery Validation functionality is initialized with .js-validation-reminder class in js/pages/op_auth_reminder.min.js which was auto compiled from _es6/pages/op_auth_reminder.js -->
                     <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                    <form 
-                        class="js-validation-reminder px-30" 
-                        action="{{ route('password.email') }}" 
+                    <form
+                        class="js-validation-reminder px-30"
+                        action="{{ route('password.email') }}"
                         method="post"
                         >
-                        @csrf   
-                        
+                        @csrf
+
                         <div class="form-group row">
 
                             <div class="col-12">
                                 <div class="form-material floating">
-                                    <input 
-                                        type="email" 
-                                        class="form-control" 
-                                        id="email" 
+                                    <input
+                                        type="email"
+                                        class="form-control @error('email') is-invalid @enderror"
+                                        id="email"
                                         name="email"
                                         value="{{ old('email') }}"
                                         required
                                         autofocus
                                         >
-                                    <label for="email">Username or Email</label>
+                                    <label for="email">Email</label>
+                                    @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
 
