@@ -20,7 +20,7 @@
             </div>
             <div class="hero-static col-md-6 col-xl-4 d-flex align-items-center bg-white">
                 <div class="content content-full">
-                    @include('partials.guest.aleart')
+
                     <!-- Header -->
                     <div class="px-30 py-10">
                         <a class="link-effect font-w700" href="index.html">
