@@ -18,6 +18,9 @@
             </div>
             <div class="hero-static col-md-6 col-xl-4 d-flex align-items-center bg-white invisible" data-toggle="appear" data-class="animated fadeInRight">
                 <div class="content content-full">
+
+                    <x-alert :status="session('status')"/>
+
                     <!-- Header -->
                     <div class="px-30 py-10">
                         <a class="link-effect font-w700" href="#">
@@ -30,8 +33,6 @@
                     <!-- END Header -->
 
                     <!-- Sign In Form -->
-                    <!-- jQuery Validation functionality is initialized with .js-validation-signin class in js/pages/op_auth_signin.min.js which was auto compiled from _es6/pages/op_auth_signin.js -->
-                    <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
                     <form class="js-validation-signin px-30" action="{{ route('login') }}" method="post">
                         @csrf
                         <div class="form-group row">
