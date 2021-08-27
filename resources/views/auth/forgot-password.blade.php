@@ -18,6 +18,8 @@
             </div>
             <div class="hero-static col-md-6 col-xl-4 d-flex align-items-center bg-white">
                 <div class="content content-full">
+                    <x-alert :status="session('status')"/>
+
                     <!-- Header -->
                     <div class="px-30 py-10">
                         <a class="link-effect font-w700" href="#">
@@ -25,13 +27,11 @@
                             <span class="font-size-xl text-primary-dark">code</span><span class="font-size-xl">base</span>
                         </a>
                         <h1 class="h3 font-w700 mt-30 mb-10">Don’t worry, we’ve got your back</h1>
-                        <h2 class="h5 font-w400 text-muted mb-0">Please enter your username or email</h2>
+                        <h2 class="h5 font-w400 text-muted mb-0">Please enter your email</h2>
                     </div>
                     <!-- END Header -->
 
                     <!-- Reminder Form -->
-                    <!-- jQuery Validation functionality is initialized with .js-validation-reminder class in js/pages/op_auth_reminder.min.js which was auto compiled from _es6/pages/op_auth_reminder.js -->
-                    <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
                     <form
                         class="js-validation-reminder px-30"
                         action="{{ route('password.email') }}"
