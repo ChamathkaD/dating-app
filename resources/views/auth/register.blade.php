@@ -138,6 +138,26 @@
                                 </a>
                             </div>
                         </div>
+
+                        <div class="form-group row gutters-tiny">
+                            <div class="col-6">
+                                <a 
+                                        class="btn btn-block btn-noborder btn-rounded btn-alt-primary" 
+                                        href="#" 
+                                    >
+                                    <i class="fa fa-facebook-square text-primary"></i> Facebook
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a 
+                                    class="btn btn-block btn-noborder btn-rounded btn-alt-danger" 
+                                    href="op_auth_signin.html"
+                                >
+                                    <i class="fa fa-google text-danger"></i> Google
+                                </a>
+                            </div>
+                        </div>
+
                     </form>
                     <!-- END Sign Up Form -->
                 </div>
