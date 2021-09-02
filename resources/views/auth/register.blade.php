@@ -143,7 +143,7 @@
                             <div class="col-6">
                                 <a
                                         class="btn btn-block btn-noborder btn-rounded btn-alt-primary"
-                                        href="{{ route('social.facebook.redirect') }}"
+                                        href="{{ route('social.redirect', 'facebook') }}"
                                     >
                                     <i class="fa fa-facebook-square text-primary"></i> Facebook
                                 </a>
@@ -151,7 +151,7 @@
                             <div class="col-6">
                                 <a
                                     class="btn btn-block btn-noborder btn-rounded btn-alt-danger"
-                                    href="{{ route('social.google.redirect') }}"
+                                    href="{{ route('social.redirect', 'google') }}"
                                 >
                                     <i class="fa fa-google text-danger"></i> Google
                                 </a>
