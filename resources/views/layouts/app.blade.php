@@ -24,8 +24,10 @@
 </head>
 <body>
 
-<div id="page-container" class="page-header-fixed page-header-glass main-content-boxed">
+<div id="page-container" class="page-header-fixed enable-page-overlay side-scroll page-header main-content-boxed">
+
     <div id="page-container" class="main-content-boxed">
+        @include('layouts.navigation')
         <main id="main-container">
             @yield('app-content')
         </main>

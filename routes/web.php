@@ -21,5 +21,11 @@ Route::get('/home', function () {
     return view('home');
 })->middleware(['auth'])->name('home');
 
+
+Route::get('/profile', function () {
+    return view('partials.profile');
+})->name('profile');
+
+
 require __DIR__.'/auth.php';
 require __DIR__.'/socialite.php';
