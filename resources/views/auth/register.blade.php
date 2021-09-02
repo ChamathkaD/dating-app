@@ -141,17 +141,17 @@
 
                         <div class="form-group row gutters-tiny">
                             <div class="col-6">
-                                <a 
-                                        class="btn btn-block btn-noborder btn-rounded btn-alt-primary" 
-                                        href="#" 
+                                <a
+                                        class="btn btn-block btn-noborder btn-rounded btn-alt-primary"
+                                        href="{{ route('social.facebook.redirect') }}"
                                     >
                                     <i class="fa fa-facebook-square text-primary"></i> Facebook
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a 
-                                    class="btn btn-block btn-noborder btn-rounded btn-alt-danger" 
-                                    href="op_auth_signin.html"
+                                <a
+                                    class="btn btn-block btn-noborder btn-rounded btn-alt-danger"
+                                    href="{{ route('social.google.redirect') }}"
                                 >
                                     <i class="fa fa-google text-danger"></i> Google
                                 </a>

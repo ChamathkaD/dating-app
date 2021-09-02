@@ -16,9 +16,9 @@
                     <!-- User Info -->
                     <div class="content-header-item">
                         <a class="img-link mr-5" href="be_pages_generic_profile.html">
-                            <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar15.jpg" alt="">
+                            <img class="img-avatar img-avatar32" src="{{ Auth::user()->image }}" alt="">
                         </a>
-                        <a class="align-middle link-effect text-primary-dark font-w600" href="be_pages_generic_profile.html">John Smith</a>
+                        <a class="align-middle link-effect text-primary-dark font-w600" href="be_pages_generic_profile.html">{{ Auth::user()->name }}</a>
                     </div>
                     <!-- END User Info -->
                 </div>
