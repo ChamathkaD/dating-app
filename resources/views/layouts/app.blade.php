@@ -31,6 +31,7 @@
         <main id="main-container">
             @yield('app-content')
         </main>
+        @include('layouts.footer')
     </div>
 </div>
 
