@@ -27,5 +27,10 @@ Route::get('/profile', function () {
 })->name('profile');
 
 
+Route::get('/profile/edit', function () {
+    return view('partials.profile_edit');
+})->name('profile.edit');
+
+
 require __DIR__.'/auth.php';
 require __DIR__.'/socialite.php';
